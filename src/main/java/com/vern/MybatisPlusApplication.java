@@ -1,4 +1,4 @@
-package com.vern.mybatisplus;
+package com.vern;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
