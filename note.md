@@ -6,3 +6,7 @@
      4 注解@TableId和@TableName,逐渐生成策略
      5 注解@TableLogic可以实现逻辑删除，但数据表要添加一个字段logic_id，类型为int，默认值是0（表示未删除）。
        进行操作删除后，实质上是把logic_id设置为1,。进行select操作时where的条件是logic_id = 0。
+
+10/9 1 分页功能、锁功能、配置多数据源
+     2 Wrapper
+     3 MybatisX插件快速生成mapper、service、xml以及crud
